@@ -35,6 +35,16 @@
     "url": "https://spunk.codes"
   }
 }
+
+// ─── Exit + scroll CTA close ────────────────────────────────────
+window.closeExit = function() {
+  var el = document.getElementById('exit-overlay');
+  if (el) el.classList.remove('show');
+};
+window.closeScrollCta = function() {
+  var el = document.getElementById('scroll-cta');
+  if (el) el.classList.remove('show');
+};
 </script>
 <!-- Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVNL11PEGP"></script>
